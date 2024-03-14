@@ -36,6 +36,7 @@ Welcome to InstaUploader! This is a tool designed to simplify the process of upl
 ## ToDo
 
 - Implement a scheduler for daily uploads.
+- Let users choose a folder instead of downloading
 
 Feel free to contribute to this project and enhance its functionality!
 
