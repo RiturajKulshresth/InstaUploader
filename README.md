@@ -26,8 +26,8 @@ Welcome to InstaUploader! This is a tool designed to simplify the process of upl
 ## Running the Application
 
 - One way to run the application is by executing `python gui.py`. This will open a Tkinter GUI where you can enter your client ID from Unsplash and your Instagram account details.
-- Another Way to ruin this application is by manually adding the creds.py file and running `python launcher.py`
-```python
+- Another Way to ruin this application is by manually adding the `creds.py` file and running `python launcher.py`:
+   ```python
      client_id = ''
      username = ''
      password = ''
