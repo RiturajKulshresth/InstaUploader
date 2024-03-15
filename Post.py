@@ -26,7 +26,7 @@ def main():
 
 
     # Specify the image file path and caption
-    image_path = "./downloaded_photos/photo_1.jpg"
+    image_path = "./photo_1.jpg"
 
     # Post the image with the specified caption
     bot.upload_photo(image_path, caption=description)

@@ -87,7 +87,7 @@ if __name__ == "__main__":
     print(photos[0]['alt_description'])
 
     if photos:
-        download_path = "./downloaded_photos"
+        download_path = "."
         download_photos(photos, download_path)
 
         # Create a list to store descriptions
@@ -107,9 +107,10 @@ if __name__ == "__main__":
         
         print("Descriptions saved to 'photo_descriptions.json'")
 
-        input_image_path="./downloaded_photos/photo_1.jpg"
+        input_image_path="./photo_1.jpg"
         aspect_ratio=1
-        while(aspect_ratio!=0.8):# output_image_path = "./downloaded_photos/photo.jpg"
+        while(aspect_ratio!=0.8):
+            # output_image_path = "./downloaded_photos/photo.jpg"
             img1 = Image.open(input_image_path)
             width, height = img1.size
             aspect_ratio = width / height
