@@ -214,5 +214,6 @@ canvas.create_text(
     fill="#FFFFFF",
     font=("Inter Bold", 13 * -1)
 )
+window.title("InstaUploader")
 window.resizable(False, False)
 window.mainloop()
