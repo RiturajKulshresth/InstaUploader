@@ -12,6 +12,7 @@ Welcome to InstaUploader! This is a tool designed to simplify the process of upl
      username = ''
      password = ''
      ```
+   
 
 2. **Modify Instabot Library**:
    - Comment out lines 560 to 586 in `api.py` of the Instabot library.
@@ -22,6 +23,9 @@ Welcome to InstaUploader! This is a tool designed to simplify the process of upl
    - Replace `Image.ANTIALIAS` with `Image.LANCZOS` in `api_photos.py`.
    - Location: `/home/<username>/anaconda3/lib/python3.11/site-packages/instabot/api/api_photo.py`
    - Update: PIL's ANTIALIAS method has been renamed to LANCZOS as of version 2.7.0.
+  
+4. **Requirements**:
+   - Only prerequisite is to install Instabot.
 
 ## Running the Application
 
@@ -37,6 +41,11 @@ Welcome to InstaUploader! This is a tool designed to simplify the process of upl
 
 - Implement a scheduler for daily uploads.
 - Let users choose a folder instead of downloading
+- Use Instagram official API once they make their registration process easier. ;(
+- Package using pyinstaller which fails due to incompatibility with pathlib in pyinstaller >v5.1
+- Resolve failure if used very frequently and Instagram will flag your account.
+- # Instagram Automation with Instabot
+
 
 Feel free to contribute to this project and enhance its functionality!
 
